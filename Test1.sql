@@ -68,3 +68,5 @@ WHERE post_status = 0;
 
 DELETE FROM categories 
 WHERE category_id = 3;
+
+-- Không thể xóa được khóa chính vì hệ thống không cho phép xóa một danh mục đang được các bài viết "tham chiếu"
